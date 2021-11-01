@@ -1,0 +1,22 @@
+#!/bin/bash
+
+RG=anfdemo-rg
+VNET=anfjpe-vnet
+
+# bastion
+az network vnet subnet create \
+    --resource-group $RG \
+    --name AzureBastionSubnet \
+    --vnet-name $VNET \
+    --address-prefixes 172.20.3.0/28
+
+az network public-ip create --resource-group $RG \
+    --name bastionpublic-ip \
+    --sku Standard 
+
+az network bastion create -g $RG \
+    --name MyBastionHost \
+    --public-ip-address bastionpublic-ip \
+    --vnet-name $VNET
+
+
