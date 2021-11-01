@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Dynamic tier change
+az feature register --namespace Microsoft.NetApp --name ANFTierChange
+# Share AD in the same region
+az feature register --namespace Microsoft.NetApp --name ANFSharedAD
+# Unix permission
+az feature register --namespace Microsoft.NetApp --name ANFUnixPermissions
+# Unix chown
+az feature register --namespace Microsoft.NetApp --name ANFChownMode
+az feature register --namespace Microsoft.NetApp --name ANFSDNAppliance
+az feature register --namespace Microsoft.NetApp --name ANFAesEncryption
+az feature register --namespace Microsoft.NetApp --name ANFLdapSigning
+az feature register --namespace Microsoft.NetApp --name ANFBackupOperator
+az feature register --namespace Microsoft.NetApp --name ANFAdAdministrators
+az feature register --namespace Microsoft.NetApp --name ANFDualProtocolNFSv4AndSMB
+az feature register --namespace Microsoft.NetApp --name ANFSMBEncryption
+az feature register --namespace Microsoft.NetApp --name ANFLdapOverTls
