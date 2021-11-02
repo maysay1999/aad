@@ -1,4 +1,5 @@
 az role definition create --role-definition roles/snapshot-delete.json
 
+az role definition list -n "ANF Volume Read-only"
 
-az role definition list --name "ANF Volume Read-only"
+az role definition delete -n 
