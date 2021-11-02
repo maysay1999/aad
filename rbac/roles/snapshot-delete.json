@@ -1,0 +1,14 @@
+{
+    "Name": "ANF Snapshot Delete",
+    "IsCustom": true,
+    "Description": "Can delete ANF Snapshot(s)",
+    "Actions": [
+      "Microsoft.NetApp/netAppAccounts/capacityPools/volumes/snapshots/delete"
+    ],
+    "NotActions": [
+
+    ],
+    "AssignableScopes": [
+      "/subscriptions/a9f075ef-390d-4cc4-8066-2896b4f0fake"
+    ]
+}

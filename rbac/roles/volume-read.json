@@ -1,0 +1,14 @@
+{
+    "Name": "ANF Volume Read-only",
+    "IsCustom": true,
+    "Description": "ANF volume read-only users",
+    "Actions": [
+      "Microsoft.NetApp/netAppAccounts/capacityPools/volumes/read"
+    ],
+    "NotActions": [
+
+    ],
+    "AssignableScopes": [
+      "/subscriptions/a9f075ef-390d-4cc4-8066-2896b4f0fake"
+    ]
+}

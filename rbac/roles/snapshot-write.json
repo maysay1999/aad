@@ -1,0 +1,14 @@
+{
+    "Name": "ANF Snapshot Write",
+    "IsCustom": true,
+    "Description": "ANF Snapshot writeable users",
+    "Actions": [
+      "Microsoft.NetApp/netAppAccounts/capacityPools/volumes/snapshots/write"
+    ],
+    "NotActions": [
+
+    ],
+    "AssignableScopes": [
+      "/subscriptions/a9f075ef-390d-4cc4-8066-2896b4f0fake"
+    ]
+}
