@@ -7,7 +7,7 @@
 - Unix permission: `az feature register --namespace Microsoft.NetApp --name ANFUnixPermissions`
 - Unix chown: `az feature register --namespace Microsoft.NetApp --name ANFChownMode`
 
-Warning) Free subscription, Visual Studio subscriber and Microsoft Partner Network subscribers should raise Support Request for ANF activation. 
+Warning) ANF does NOT support **Free subscription**, **Visual Studio subscriber**, **MSDN platform** and **Microsoft Partner Network subscribers** by default.  Service Request shall be raised.  Please refer to [this site](https://docs.microsoft.com/en-us/azure/azure-netapp-files/request-region-access). 
 
 ## SMB option
 
