@@ -8,3 +8,28 @@ Reference:\
 ### Diagram
 [View hands-on diagram](https://github.com/maysay1999/aad/blob/main/cvo/220117_hands-on_diagram_cvo.pdf)
 
+## Option 1: Create the Connector with your Azure account
+
+## 1. Edit *Policy_for_Setup_As_Service_Azure.json*
+- After "AssignableScopes", add "/subscriptions/{your_subscription}"
+
+```bash
+"AssignableScopes": [
+"/subscriptions/d333af45-0d07-4154-943d-c25fbzzzFAKE"
+],
+```
+
+## 2. Upload json file and execute *az role definition create* command
+
+- Upload the json file on Azure Cloud Shell
+- Create a new role named "Azure SetupAsService": `az role definition create --role-definition Policy_for_Setup_As_Service_Azure.json`
+
+## 3. Add role assigment under *subscription*
+- Subscriptions
+- Access control (IAM)
+- Add > Add role assignment and select **Azure SetupAsService** role
+- User, group, or service principal 
+- Select members, choose **your user account**
+- Review + assign
+
+
