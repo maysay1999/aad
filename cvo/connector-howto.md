@@ -32,4 +32,5 @@ Reference:\
 - Select members, choose **your user account**
 - Review + assign
 
-
+## 4. Have acccess with [Cloud Manager website](https://cloudmanager.netapp.com/) and click "Connector"
+![Click Connector](https://github.com/maysay1999/aad/blob/main/cvo/images/click_connector.jpg)
