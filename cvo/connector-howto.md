@@ -11,6 +11,7 @@ Reference:\
 ## Option 1: Create the Connector with your Azure account
 
 ## 1. Edit "Policy_for_Setup_As_Service_Azure.json"
+Download [Policy_for_Setup_As_Service_Azure.json](https://github.com/maysay1999/aad/blob/main/cvo/Policy_for_Setup_As_Service_Azure.json)
 - After "AssignableScopes", add "/subscriptions/{your_subscription}"
 
 ```bash
@@ -25,6 +26,7 @@ Reference:\
 - Create a new role named "Azure SetupAsService": `az role definition create --role-definition Policy_for_Setup_As_Service_Azure.json`
 
 ## 3. Edit "Policy_for_cloud_Manager_Azure_3.9.12.json"
+Download [Policy_for_cloud_Manager_Azure_3.9.12.json](https://github.com/maysay1999/aad/blob/main/cvo/Policy_for_cloud_Manager_Azure_3.9.12.json)
 - After "AssignableScopes", add "/subscriptions/{your_subscription}"
 
 ```bash
