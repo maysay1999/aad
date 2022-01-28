@@ -116,7 +116,9 @@
                         "Microsoft.Network/networkSecurityGroups/securityRules/delete"
     ],
     "NotActions": [],
-    "AssignableScopes": [],
+    "AssignableScopes": [
+        "/subscriptions/1234e-7ae8-4de0-bae3-caThisIsFAKE"
+    ],
     "Description": "Cloud Manager Permissions",
     "IsCustom": "true"
 }

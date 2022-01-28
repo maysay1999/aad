@@ -60,7 +60,9 @@
         "Microsoft.Authorization/roleAssignments/read"
     ],
     "NotActions": [],
-    "AssignableScopes": [],
+    "AssignableScopes": [
+        "/subscriptions/2701e-7ae8-4de0-bae3-caThisIsFAKE"
+    ],
     "Description": "Azure SetupAsService",
     "IsCustom": "true"
 }
