@@ -6,6 +6,9 @@
 - Dynamic tier change: `az feature register --namespace Microsoft.NetApp --name ANFTierChange`
 - Unix permission: `az feature register --namespace Microsoft.NetApp --name ANFUnixPermissions`
 - Unix chown: `az feature register --namespace Microsoft.NetApp --name ANFChownMode`
+- Restore individual files `az feature register --namespace Microsoft.NetApp --name ANFSingleFileSnapshotRestore`
+
+To verify, `az feature list --namespace Microsoft.NetApp -o table`
 
 Warning) ANF does NOT support **Free subscription**, **Visual Studio subscriber**, **MSDN platform** and **Microsoft Partner Network subscribers** by default.  To activate ANF, Service Request shall be raised.  Please refer to [this site](https://docs.microsoft.com/en-us/azure/azure-netapp-files/request-region-access). 
 
