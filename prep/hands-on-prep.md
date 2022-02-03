@@ -12,7 +12,17 @@ To verify, `az feature list --namespace Microsoft.NetApp -o table`
 
 Warning) ANF does NOT support **Free subscription**, **Visual Studio subscriber**, **MSDN platform** and **Microsoft Partner Network subscribers** by default.  To activate ANF, Service Request shall be raised.  Please refer to [this site](https://docs.microsoft.com/en-us/azure/azure-netapp-files/request-region-access). 
 
+### **Network Diagram**
+
+[Network diagram of Hands-on Seesion ANF NFS](https://github.com/maysay1999/aad/blob/main/prep/images/220203_hands-on_diagram_linux_nfs_auseast.pdf)
+
+[Network diagram of Hands-on Seesion ANF SMB](https://github.com/maysay1999/aad/blob/main/prep/images/220203_hands-on_diagram_smb_japaneast.pdf)
+
+[Cross Region Replication (DR)](https://github.com/maysay1999/aad/blob/main/prep/images/220107_crr_diagram.pdf)
+
 ## SMB option
+
+[Network diagram of Hands-on Seesion ANF SMB](https://github.com/maysay1999/aad/blob/main/prep/images/220203_hands-on_diagram_smb_japaneast.pdf)
 
 ## 1. Create Resouce Group of ADDS (Domain Controller)
 `az group create -n anfdemo-rg -l japaneast`
