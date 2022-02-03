@@ -16,7 +16,7 @@ Warning) ANF does NOT support **Free subscription**, **Visual Studio subscriber*
 
 [Network diagram of Hands-on Seesion ANF NFS](https://github.com/maysay1999/aad/blob/main/prep/images/220203_hands-on_diagram_linux_nfs_auseast.pdf)
 
-[Network diagram of Hands-on Seesion ANF SMB](https://github.com/maysay1999/aad/blob/main/prep/images/220203_hands-on_diagram_smb_japaneast.pdf)
+[Network diagram of Hands-on Seesion ANF SMB](https://github.com/maysay1999/aad/blob/main/prep/images/220203_hands-on_diagram_smb_japaneast%20.pdf)
 
 [Cross Region Replication (DR)](https://github.com/maysay1999/aad/blob/main/prep/images/220107_crr_diagram.pdf)
 
