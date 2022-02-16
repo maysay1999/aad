@@ -75,7 +75,7 @@ Note) It takes over 20 mins.
 Insert this line on Cloud Shell
 
 ```Bash
-az netappfiles account create -g anfdemo-rg -n anftest -l japaneast`
+az netappfiles account create -g anfdemo-rg -n anftest -l japaneast
 ```
 
 ## 4. Registration for new features
